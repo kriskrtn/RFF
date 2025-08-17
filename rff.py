@@ -76,7 +76,7 @@ class RFFPipeline(BaseEstimator):
         :param classifier_class: Класс классификатора
         :param classifier_params: Параметры, которыми инициализируется классификатор
         :param func: Функция, которую получает feature_creator при инициализации.
-                     Если не хотите, можете не использовать этот параметр.
+        
         """
         self.n_features = n_features
         self.new_dim = new_dim
